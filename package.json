@@ -1,0 +1,33 @@
+{
+  "name": "locomotive-express-website",
+  "version": "1.0.0",
+  "description": "A modern locomotive-themed website with smooth animations and AI integration",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000 --open=/index.html",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Deploy to your preferred hosting service'",
+    "dev": "npx live-server --port=3000 --open=/index.html --watch=css,js,html"
+  },
+  "keywords": [
+    "locomotive",
+    "website",
+    "animations",
+    "gsap",
+    "locomotive-scroll",
+    "ai",
+    "chatbot",
+    "responsive"
+  ],
+  "author": "Locomotive Express Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/locomotive-express-website.git"
+  },
+  "homepage": "https://yourusername.github.io/locomotive-express-website"
+}

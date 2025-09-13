@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locomotive Express - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body data-barba="wrapper" data-scroll-container>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-train"></i>
+                <span>Locomotive Express</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main data-barba="container" data-barba-namespace="home">
+        <!-- Hero Section -->
+        <section class="hero" data-scroll-section>
+            <div class="hero-content">
+                <h1 class="hero-title" data-scroll data-scroll-speed="0.5">
+                    Welcome to <span class="highlight">Locomotive Express</span>
+                </h1>
+                <p class="hero-subtitle" data-scroll data-scroll-speed="0.5">
+                    Experience the power of modern web development with smooth animations and cutting-edge technology
+                </p>
+                <div class="hero-buttons" data-scroll data-scroll-speed="0.5">
+                    <a href="projects.html" class="btn btn-primary">Explore Projects</a>
+                    <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual" data-scroll data-scroll-speed="-0.5">
+            <div class="train-container">
+                    <div class="train">
+                        <div class="locomotive">
+                            <div class="smoke"></div>
+                            <div class="smoke"></div>
+                            <div class="smoke"></div>
+                        </div>
+                        <div class="carriage"></div>
+                        <div class="carriage"></div>
+                    </div>
+                    <div class="tracks"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" data-scroll-section>
+            <div class="container">
+                <h2 class="section-title" data-scroll data-scroll-speed="0.5">Why Choose Locomotive Express?</h2>
+                <div class="features-grid">
+                    <div class="feature-card" data-scroll data-scroll-speed="0.3">
+                        <div class="feature-icon">
+                            <i class="fas fa-rocket"></i>
+                </div>
+                        <h3>Lightning Fast</h3>
+                        <p>Optimized performance with modern web technologies and smooth animations</p>
+                </div>
+                    <div class="feature-card" data-scroll data-scroll-speed="0.3">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                </div>
+                    <h3>Responsive Design</h3>
+                        <p>Perfect experience across all devices and screen sizes</p>
+                    </div>
+                    <div class="feature-card" data-scroll data-scroll-speed="0.3">
+                        <div class="feature-icon">
+                            <i class="fas fa-brain"></i>
+                </div>
+                        <h3>AI Powered</h3>
+                        <p>Intelligent features powered by cutting-edge AI technology</p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats" data-scroll-section>
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="100">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="50">0</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="5">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="24">0</div>
+                        <div class="stat-label">Support Hours</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta" data-scroll-section>
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Start Your Journey?</h2>
+                    <p >Let's build something amazing together</p>
+                    <a href="contact.html" class="btn btn-primary" data-scroll data-scroll-speed="0.5">Get Started</a>
+                </div>
+    </div>
+        </section>
+    </main>
+
+    <!-- AI Chatbot -->
+    <div class="chatbot-container" id="chatbot">
+        <div class="chatbot-toggle" id="chatbotToggle">
+            <i class="fas fa-robot"></i>
+        </div>
+        <div class="chatbot-window" id="chatbotWindow">
+            <div class="chatbot-header">
+                <h3>AI Assistant</h3>
+                <button class="chatbot-close" id="chatbotClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="chatbot-messages" id="chatbotMessages">
+                <div class="message bot-message">
+                    <p>Hello! I'm your AI assistant. How can I help you today?</p>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatbotInput" placeholder="Type your message...">
+                <button id="chatbotSend">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Spiderman Animation -->
+    <div class="spiderman" id="spiderman">
+        <div class="spiderman-figure">
+            <!-- Option 1: Use your own Spiderman image -->
+            <img src="assets/Spiderman.png" alt="Spiderman" class="spiderman-image" style="display: none;">
+            
+            <!-- Option 2: Keep CSS version as fallback -->
+            <div class="spiderman-body"></div>
+            <div class="spiderman-head"></div>
+            <div class="spiderman-web"></div>
+        </div>
+    </div>
+
+    <!-- Test Buttons (for debugging) -->
+    <button id="testSpiderman" style="position: fixed; top: 10px; left: 10px; z-index: 10000; background: linear-gradient(45deg, #e74c3c, #c0392b); color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);">
+        🕷️ Test Spiderman
+    </button>
+    
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <script src="js/ai-chatbot.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
